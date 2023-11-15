@@ -49,7 +49,7 @@ def test_random_list():
     """
     import random
 
-    l = random.sample(range(10, 101), 10)
+    l = random.sample(range(1, 101), 10)
     list.sort(l)
 
     assert len(l) == 10
